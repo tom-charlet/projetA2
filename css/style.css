@@ -22,7 +22,6 @@ main section article{
     padding: 15px;
     width: 400px;
     height: auto;
-<<<<<<< HEAD
     background-color: lightgray;
     min-height: 400px;
 }
@@ -40,9 +39,6 @@ main section article{
 .main-aside aside img{
     width: 100%;
 }
-=======
-}
 
 footer{display: flex;justify-content: space-evenly;}
 h3{font-weight: bold;}
->>>>>>> 5f2c55e0eafd6bb1bcf02fff05d0defa37898703
