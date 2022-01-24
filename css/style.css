@@ -12,5 +12,5 @@ aside img{
     height: auto;
 }
 
-footer{display: flex;}
+footer{display: flex;justify-content: space-evenly;}
 h3{font-weight: bold;}
