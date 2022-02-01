@@ -16,8 +16,27 @@ header h1{
     text-transform: uppercase;
 }
 
-header .logo-header{
-    
+nav{
+    width: 100%;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+nav ul li{
+    list-style: none;
+    padding: 20px;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+nav ul li a:hover{
+    color: crimson;
 }
 
 main{
