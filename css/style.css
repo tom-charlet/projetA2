@@ -3,6 +3,10 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: Arial, sans-serif;
+}
+
 header{
     position: absolute;
     background-color: lightsalmon;
@@ -11,9 +15,6 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-}
-header h1{
-    text-transform: uppercase;
 }
 .logo-header{
     width: 50px;
