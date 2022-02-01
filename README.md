@@ -1,6 +1,3 @@
 ## projetA2
 
-C'est site test qui parle de la culture bretonne
-
-
-
+C'est un site à propos de la culture bretonne
