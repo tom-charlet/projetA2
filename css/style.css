@@ -60,43 +60,47 @@ main{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     gap: 40px;
-    padding: 20px;
 }
 main section{
-    max-width: 1000px;
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    gap: 40px;
-}
-
-main section article{
-    padding: 15px;
-    height: auto;
-    background-color: lightgray;
-    min-height: 400px;
-}
-
-.main-aside{
-    width: 250px;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    flex-shrink: 0;
-}
-.main-aside aside{
+    padding: 10px;
     width: 100%;
+    max-width: 650px;
+}
+.article-main{
+    padding: 20px;
+    background-color: whitesmoke;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: auto 200px auto;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-.main-aside aside img{
+.title-article{
+    grid-column: span 2;
+    margin: 10px 0 20px;
+}
+.text-article{
+    margin: 0 20px 10px 0;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.link-article{
+
+}
+.img-article{
+    grid-column: 2;
+    grid-row: 2 / 4;
+    height: 100%;
+}
+.img-article img{
     width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
-nav{
-    list-style-type: georgian;
-}
+
 
 footer{
     width: 100%;
