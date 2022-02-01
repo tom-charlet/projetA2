@@ -1,4 +1,4 @@
-# ProjetA2, un site sur la cultiure bretonne
+# ProjetA2, un site sur la cultiure bretonne V1
 ## Compostion :
  - Tom CHARLET
  - Antoine CAILLOT
