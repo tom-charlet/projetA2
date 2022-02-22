@@ -64,11 +64,12 @@ main{
     gap: 40px;
 }
 main section{
-    padding: 10px;
+    padding: 30px;
     width: 100%;
     max-width: 1200px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    align-items: center;
     gap: 20px;
 }
 .article-main{
@@ -148,4 +149,10 @@ footer div ul li{
 footer div ul li a{
     color: rgba(255, 255, 255,0.7);
     text-decoration: none;
+}
+
+@media screen and (max-width: 920px){
+    main section{
+        grid-template-columns: 1fr;
+    }
 }
