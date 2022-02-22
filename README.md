@@ -9,6 +9,7 @@
  - footer
  - menu
  - flexbox
+ - grid
 ## Technologies
  - html natif
  - css natif
