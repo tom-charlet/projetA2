@@ -88,8 +88,27 @@ main section{
     overflow: hidden;
 }
 .link-article{
-
+    padding: 15px 0;
 }
+.link-article a{
+    padding: 15px 20px;
+    background-color: lightgray;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #252525;
+    font-weight: bold;
+    font-size: .9rem;
+    transition: all 0.1s ease-in-out;
+}
+.link-article a:hover{
+    background-color: #252525;
+    border-radius: 6px;
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: .9rem;
+}
+
 .img-article{
     grid-column: 2;
     grid-row: 2 / 4;
