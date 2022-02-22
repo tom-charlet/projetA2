@@ -86,7 +86,7 @@ main section{
     grid-column: -1 / 1;
     font-size: 1.5rem;
     padding: 10px 0;
-    margin: 80px 0 20px;
+    margin: 0 0 40px;
     border-bottom: solid 2px;
     color: #252525;
 }
