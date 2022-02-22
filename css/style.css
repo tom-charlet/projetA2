@@ -55,7 +55,7 @@ nav ul li a:hover{
 }
 
 main{
-    margin: 120px 0 50px 0;
+    margin: 140px 0 50px 0;
     width: 100%;
     min-height: 100vh;
     display: flex;
@@ -66,7 +66,10 @@ main{
 main section{
     padding: 10px;
     width: 100%;
-    max-width: 650px;
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
 }
 .article-main{
     padding: 20px;
