@@ -82,6 +82,15 @@ main section{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
+.title-section{
+    grid-column: -1 / 1;
+    font-size: 1.5rem;
+    padding: 10px 0;
+    margin: 80px 0 20px;
+    border-bottom: solid 2px;
+    color: #252525;
+}
+
 .title-article{
     grid-column: span 2;
     margin: 10px 0 20px;
